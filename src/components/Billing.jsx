@@ -4,7 +4,7 @@ const Billing = () => {
   return (
     <section
       id="solution"
-      className="text-white font-poppins grid md:auto-cols-fr md:grid-flow-col md:gap-28 "
+      className="text-white font-poppins grid md:auto-cols-fr md:grid-flow-col md:gap-28 mb-20"
     >
       <div>
         <img src={bill} alt="bill image" className="mb-8" />
