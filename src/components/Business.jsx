@@ -4,7 +4,7 @@ const Business = () => {
   return (
     <section
       id="features"
-      className="grid md:grid-cols-2 gap-8 md:gap-20 py-28 text-white font-poppins "
+      className="grid md:grid-cols-2 gap-8 md:gap-20 py-14 text-white font-poppins "
     >
       <div>
         <h2 className="text-4xl sm:text-5xl font-semibold mb-6">
@@ -53,7 +53,7 @@ const Business = () => {
           </div>
           <div>
             <h4 className="text-2xl mb-2 font-semibold">Balance Transfer</h4>
-            <p className="text-white/80 mb-10">
+            <p className="text-white/80">
               A balance transfer credit card can save you a lot of money in
               interest charges.
             </p>
