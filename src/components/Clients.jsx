@@ -2,7 +2,7 @@ import { clients } from '../constants';
 
 const Clients = () => {
   return (
-    <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-10 md:gap-32">
+    <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-10 md:gap-32 mb-20">
       {clients.map(client => (
         <div
           key={client.id}
