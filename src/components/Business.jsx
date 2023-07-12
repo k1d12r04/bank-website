@@ -20,38 +20,38 @@ const Business = () => {
         </button>
       </div>
 
-      <div>
-        <div className="flex flex-col sm:flex-row sm:items-start justify-start items-center gap-4">
+      <div className="space-y-6">
+        <div className="flex flex-col bg-black-gradient-2 p-4 rounded-lg sm:flex-row justify-start items-center gap-4">
           <div className="flex justify-center items-center w-16 h-16 p-4 rounded-full bg-[#00F6FF]/10 ">
             <img src={star} alt="star icon" />
           </div>
-          <div>
+          <div className="text-center sm:text-left">
             <h4 className="text-2xl mb-2 font-semibold">Rewards</h4>
-            <p className="text-white/80 mb-10 md:w-3/4">
+            <p className="text-white/80 md:w-3/4">
               The best credit cards offer some tantalizing combinations of
               promotions and prizes
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-start justify-start items-center gap-4">
+        <div className="flex flex-col bg-black-gradient-2 p-4 rounded-lg sm:flex-row justify-start items-center gap-4">
           <div className="flex justify-center items-center w-16 h-16 p-4 rounded-full bg-[#00F6FF]/10 ">
             <img src={shield} alt="shield icon" />
           </div>
-          <div>
+          <div className="text-center sm:text-left">
             <h4 className="text-2xl mb-2 font-semibold">100% Secured</h4>
-            <p className="text-white/80 mb-10 md:w-3/4">
+            <p className="text-white/80 md:w-3/4">
               The best credit cards offer some tantalizing combinations of
               promotions and prizes
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:items-start justify-start items-center gap-4">
+        <div className="flex flex-col bg-black-gradient-2 p-4 rounded-lg sm:flex-row  justify-start items-center gap-4">
           <div className="flex justify-center items-center w-16 h-16 p-4 rounded-full bg-[#00F6FF]/10 ">
             <img src={send} alt="send icon" />
           </div>
-          <div>
+          <div className="text-center sm:text-left">
             <h4 className="text-2xl mb-2 font-semibold">Balance Transfer</h4>
             <p className="text-white/80 md:w-3/4">
               A balance transfer credit card can save you a lot of money in

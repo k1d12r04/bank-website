@@ -3,7 +3,7 @@ import { appStore, googlePlay, bill } from '../assets';
 const Billing = () => {
   return (
     <section
-      id="solution"
+      id="solutions"
       className="text-white font-poppins grid md:auto-cols-fr md:grid-flow-col md:gap-28 mb-20"
     >
       <div>

@@ -2,10 +2,7 @@ import { appStore, googlePlay, card } from '../assets';
 
 const CardDeal = () => {
   return (
-    <section
-      id="solution"
-      className="text-white font-poppins grid md:auto-cols-fr md:grid-flow-col md:gap-28 "
-    >
+    <section className="text-white font-poppins grid md:auto-cols-fr md:grid-flow-col md:gap-28 mb-14">
       <div className="md:order-2">
         <img src={card} alt="card deal image" className="mb-8" />
       </div>
