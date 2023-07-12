@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <div className="text-white bg-black-gradient-2 p-6 sm:px-28 sm:py-20 rounded-lg md:flex items-center md:justify-between ">
+    <div className="text-white bg-black-gradient-2 p-6 sm:px-28 sm:py-20 rounded-lg md:flex items-center md:justify-between mb-20">
       <div className="col-span-2">
         <h3 className="text-3xl sm:text-5xl mb-4 font-medium">
           Let’s try our service now!
