@@ -3,7 +3,7 @@ import { quotes } from '../assets';
 
 const Testimonials = () => {
   return (
-    <section id="about" className="grid text-white">
+    <section id="about" className="grid text-white mb-20">
       <div className="lg:grid lg:grid-cols-2 items-center mb-20">
         <h3 className="text-2xl sm:text-5xl font-medium sm:leading-[1.6] mb-4 lg:w-2/3">
           What people are saying about us
